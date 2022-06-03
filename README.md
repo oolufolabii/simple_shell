@@ -10,5 +10,5 @@
 
 ## Contributors
 
-+ **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 + **Ademola Sikiru** - [ade2002](https://github.com/Ade2002/)
++ **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
