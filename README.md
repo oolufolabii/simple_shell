@@ -14,5 +14,5 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x aux_help.c && git add --chmod=+x 100-elf_header.c && git commit -m 'Advanced task 04  a program that displays the information contained in the ELF header at the start of an ELF file. 100-elf_header.c' && git push
+chmod u+x aux_help.c && git add --chmod=+x aux_help.c && git commit -m 'Advanced task 04  a program that displays the information contained in the ELF header at the start of an ELF file. 100-elf_header.c' && git push
 git add . && git commit -m 'created readme'
