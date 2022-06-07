@@ -14,5 +14,5 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x aux_stdlib.c && git add --chmod=+x aux_stdlib.c && git commit -m 'task 07 aux_mem.c' && git push
+chmod u+x aux_stdlib.c && git add --chmod=+x aux_stdlib.c && git commit -m 'task 07 aux_stdlib.c' && git push
 git add . && git commit -m 'created readme'
