@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x main.h && git add --chmod=+x main.h && git commit -m 'header file main.h' && git push
+chmod u+x man_1_simple_shell && git add --chmod=+x main.h && git commit -m 'header file main.h' && git push
 git add .  && git commit -m 'main.h file'
 git add . && git commit -m 'created readme'
