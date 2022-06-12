@@ -14,5 +14,5 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x cd_shell.c && git add --chmod=+x cd.c && git commit -m 'task 11 cd.c' && git push
+chmod u+x cd_shell.c && git add --chmod=+x cd_shell.c && git commit -m 'task 11 cd.c' && git push
 git add . && git commit -m 'created readme'
