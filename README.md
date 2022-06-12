@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x man_1_simple_shell && git add --chmod=+x man_1_simple_shell && git commit -m 'task 24 file read_line.c' && git push
+chmod u+x read_line.c && git add --chmod=+x man_1_simple_shell && git commit -m 'task 24 file read_line.c' && git push
 git add .  && git commit -m 'man_1_simple_shell file'
 git add . && git commit -m 'created readme'
