@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x main.c && git add --chmod=+x main.c && git commit -m 'task 23 get_sigint.c' && git push
+chmod u+x main.c && git add --chmod=+x main.c && git commit -m 'main.c file main' && git push
 git add .  && git commit -m 'get_sigint.c file'
 git add . && git commit -m 'created readme'
