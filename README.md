@@ -15,5 +15,5 @@
 
 
 chmod u+x man_1_simple_shell && git add --chmod=+x man_1_simple_shell && git commit -m 'shell file man_1_simple_shell' && git push
-git add .  && git commit -m 'main.h file'
+git add .  && git commit -m 'man_1_simple_shell file'
 git add . && git commit -m 'created readme'
