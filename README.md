@@ -14,5 +14,5 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x exec_line.c && git add --chmod=+x exec_line.c && git commit -m 'task 16 env2.c' && git push
+chmod u+x exec_line.c && git add --chmod=+x exec_line.c && git commit -m 'task 17 exec_line.c' && git push
 git add . && git commit -m 'created readme'
