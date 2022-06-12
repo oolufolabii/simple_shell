@@ -14,5 +14,5 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x check_syntax_error.c && git add --chmod=+x cd_shell.c && git commit -m 'task 12 cd_shell.c' && git push
+chmod u+x check_syntax_error.c && git add --chmod=+x check_syntax_error.c && git commit -m 'task 12 cd_shell.c' && git push
 git add . && git commit -m 'created readme'
