@@ -14,5 +14,5 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x cd.c && git add --chmod=+x aux_str3.c && git commit -m 'task 10 aux_str3.c' && git push
+chmod u+x cd.c && git add --chmod=+x cd.c && git commit -m 'task 10 aux_str3.c' && git push
 git add . && git commit -m 'created readme'
