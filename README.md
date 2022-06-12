@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x get_error.c && git add --chmod=+x get_error.c && git commit -m 'task 20 get_builtin.c' && git push
+chmod u+x get_error.c && git add --chmod=+x get_error.c && git commit -m 'task 20 get_error.c' && git push
 git add .  && git commit -m 'get_builtin.c file'
 git add . && git commit -m 'created readme'
