@@ -15,5 +15,5 @@
 
 
 chmod u+x read_line.c && git add --chmod=+x read_line.c && git commit -m 'task 24 file read_line.c' && git push
-git add .  && git commit -m 'man_1_simple_shell file'
+git add .  && git commit -m 'read_line.c file'
 git add . && git commit -m 'created readme'
