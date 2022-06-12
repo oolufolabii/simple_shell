@@ -15,5 +15,5 @@
 
 
 chmod u+x get_sigint.c && git add --chmod=+x get_sigint.c && git commit -m 'task 23 get_sigint.c' && git push
-git add .  && git commit -m 'get_line.c file'
+git add .  && git commit -m 'get_sigint.c file'
 git add . && git commit -m 'created readme'
