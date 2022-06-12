@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x get_line.c && git add --chmod=+x get_line.c && git commit -m 'task 21 get_help.c' && git push
+chmod u+x get_line.c && git add --chmod=+x get_line.c && git commit -m 'task 22 get_help.c' && git push
 git add .  && git commit -m 'get_error.c file'
 git add . && git commit -m 'created readme'
