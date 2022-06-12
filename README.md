@@ -15,5 +15,5 @@
 
 
 chmod u+x rep_var.c && git add --chmod=+x rep_var.c && git commit -m 'task 25 file rep_var.c' && git push
-git add .  && git commit -m 'read_line.c file'
+git add .  && git commit -m 'rep_var.c file'
 git add . && git commit -m 'created readme'
