@@ -37,7 +37,7 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 }
 
 /**
- * error_ger_cd - error message for cd command in get_cd
+ * error_get_cd - error message for cd command in get_cd
  * @datash: data relevant
  * Return: error message
  */
@@ -92,7 +92,9 @@ char *error_not_found(data_shell *datash)
     if (error == 0)
     {
         free(error);
+        
         free(ver_str);
+
         return (NULL);
     }
     _strcpy(error, datash->av[0]);
