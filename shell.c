@@ -30,7 +30,7 @@ void c_shell(void)
 char cmd[256];
 char *argv[16];
 pid_t pid;
-char i;
+char i = 0;
 while (1)
 {
 get_cmd();
@@ -54,7 +54,7 @@ execvp(argv[0], argv);
 }
 else
 {
-if (argv[i] == NULL)
+if (*argv[i] == NULL)
 waitpid(pid, NULL, 0);
 }
 }
@@ -67,9 +67,7 @@ waitpid(pid, NULL, 0);
 void get_cmd(void)
 {
 char cmd[256];
-char *argv[16];
-pid_t pid;
-char i;
+
 printf("Shell>\t");
 fgets(cmd, MAX_SIZE_CMD, stdin);
 if ((strlen(cmd) > 0) && (cmd[strlen(cmd) - 1] == '\n'))
@@ -84,7 +82,7 @@ void convert_cmd(void)
 {
 char cmd[256];
 char *argv[16];
-pid_t pid;
+
 char i;
 char *ptr;
 i = 0;
