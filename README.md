@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x rep_var.c && git add --chmod=+x rep_var.c && git commit -m 'task 25 file rep_var.c' && git push
-git add .  && git commit -m 'rep_var.c file'
+chmod u+x split.c && git add --chmod=+x split.c && git commit -m 'task 27 file split.c' && git push
+git add .  && git commit -m 'split.c file'
 git add . && git commit -m 'created readme'
