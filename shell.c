@@ -3,8 +3,8 @@
 #define	MAX_SIZE_CMD	256
 #define	MAX_SIZE_ARG	16
 
-char cmd[MAX_SIZE_CMD];
-char *argv[MAX_SIZE_ARG];
+char cmd[256];
+char *argv[16];
 pid_t pid;
 char i;
 
@@ -13,7 +13,7 @@ void convert_cmd(void);
 void c_shell(void);
 void log_handle(int sig);
 
-int main()
+int main(void)
 {
 signal(SIGCHLD, log_handle);
 c_shell();
@@ -22,22 +22,25 @@ return (0);
 
 void c_shell(void)
 {
-while(1)
+while (1)
 {
 get_cmd();
 
-if(!strcmp("", cmd)) continue;
+if (!strcmp("", cmd))
+continue;
 
-if(!strcmp("exit", cmd)) break;
+if (!strcmp("exit", cmd))
+break;
 
 convert_cmd();
 
 pid = fork();
-if(pid == -1)
+if (pid == -1)
 {
 printf("failed to create a child\n");
 }
-else if(0 == pid){
+else if (pid == 0)
+{
 execvp(argv[0], argv);
 }
 else{
