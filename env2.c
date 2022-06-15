@@ -104,16 +104,13 @@ if (_strcmp(name_env, datash->args[1]) == 0)
 {
 k = i;
 }
-
 free(var_env);
 }
-
 if (k == -1)
 {
 get_error(datash, -1);
 return (1);
 }
-
 realloc_environ = malloc(sizeof(char *) * (i));
 for (i = j = 0; datash->_environ[i]; i++)
 {
