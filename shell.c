@@ -54,7 +54,7 @@ execvp(argv[0], argv);
 }
 else
 {
-if (argv(i) == NULL)
+if (*argv[i] == NULL)
 waitpid(pid, NULL, 0);
 }
 }
