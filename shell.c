@@ -3,25 +3,27 @@
 #define	MAX_SIZE_CMD	256
 #define	MAX_SIZE_ARG	16
 
-char cmd[MAX_SIZE_CMD];				// string holder for the command
-char *argv[MAX_SIZE_ARG];			// an array for command and arguments
-pid_t pid;										// global variable for the child process ID
-char i;												// global for loop counter
+char cmd[MAX_SIZE_CMD];
+char *argv[MAX_SIZE_ARG];
+pid_t pid;
+char i;
 
-void get_cmd();								// get command string from the user
-void convert_cmd();						// convert the command string to the required format by execvp()
-void c_shell();								// to start the shell
-void log_handle(int sig);			// signal handler to add log statements
+void get_cmd(void);
+void convert_cmd(void);
+void c_shell(void);
+void log_handle(int sig);
 
-int main(){
-
+int main()
+{
 signal(SIGCHLD, log_handle);
 c_shell();
-return 0;
+return (0);
 }
 
-void c_shell(){
-while(1){
+void c_shell(void)
+{
+while(1)
+{
 get_cmd();
 
 if(!strcmp("", cmd)) continue;
@@ -31,7 +33,8 @@ if(!strcmp("exit", cmd)) break;
 convert_cmd();
 
 pid = fork();
-if(-1 == pid){
+if(pid == -1)
+{
 printf("failed to create a child\n");
 }
 else if(0 == pid){
