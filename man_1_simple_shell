@@ -1,8 +1,8 @@
-B.\"Manpage for simple shell 
+B.\"Manpage for simple shell
 
 
 
-.\"Created by Ademola Sikiru and Olufolabi Otitoola
+.\"Created by Ademola Sikiru and Folabi Otitoola
 
 .TH HSH 6 "June 2022" "ALX Africa" "SHELL - Simple Shell man page"
 
@@ -22,7 +22,7 @@ soda\fR [\fIfilename\fR]
 
 .SH COPYRIGHT
 
-hsh is Copyright (C) 2022 by Ademola Sikiru and Olufolabi Otitoola
+hsh is Copyright (C) 2022 byAdemola Sikiru and Folabi Otitoola
 
 
 
@@ -192,4 +192,4 @@ Sodash\fR takes basic functionality of the \fBsh\fR shell. This man page is base
 
 .SH AUTHORS
 
-Ademola Sikiru and Olufolabi Otitoola
+Ademola Sikiru and Folabi Otitoola
