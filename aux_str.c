@@ -69,8 +69,8 @@ return (0);
 
 /**
  * _strchr - locates a character in a string
- * @s - string
- * @c - character
+ * @s:  string
+ * @c: character
  * Return: the pointer to the first occurrence
  */
 
@@ -109,7 +109,7 @@ bool = 0;
 break;
 }
 }
-if (bool = 1)
+if (bool == 1)
 break;
 }
 return (i);
