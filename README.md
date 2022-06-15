@@ -15,5 +15,5 @@
 
 
 chmod u+x split.c && git add --chmod=+x split.c && git commit -m 'task 27 file split.c' && git push
-git add .  && git commit -m 'split.c file'
+git add .  && git commit -m 'update aux_error1.c file'
 git add . && git commit -m 'created readme'
