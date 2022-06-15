@@ -67,6 +67,7 @@ void aux_help_general(void)
     write(STDOUT_FILENO, help, _strlen(help));
 }
 
+
 /**
  * aux_help_exit - Help information for the builtin exit
  * Return: Always return 0
