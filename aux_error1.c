@@ -110,7 +110,7 @@ return (error);
 
 /**
  * error_exit_shell - generic error message
- * @datashe: data relevant
+ * @datash: data relevant
  * Return: error message
  */
 
