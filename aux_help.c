@@ -39,7 +39,7 @@ void aux_help_unsetenv(void)
 char *help = "unsetenv: unsetenv (const char *name)\n\t";
 
 write(STDOUT_FILENO, help, _strlen(help));
-hel = "Remove an entry completely from the environment\n";
+help = "Remove an entry completely from the environment\n";
 write(STDOUT_FILENO, help, _strlen(help));
 }
 

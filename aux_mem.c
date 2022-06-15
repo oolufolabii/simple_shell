@@ -8,7 +8,7 @@
  * Return: always return 0
  */
 
-vooid _memcpy(vooid *newptr, const void *ptr, unsigned int size)
+void _memcpy(void *newptr, const void *ptr, unsigned int size)
 {
 char *char_ptr = (char *)ptr;
 char *char_newptr = (char *)newptr;
@@ -73,7 +73,7 @@ return (malloc(sizeof(char *) * new_size));
 if (new_size == old_size)
 return (ptr);
 
-newptr = alloc(sizeof(char *) * new_size);
+newptr = malloc(sizeof(char *) * new_size);
 if (newptr == NULL)
 return (NULL);
 
