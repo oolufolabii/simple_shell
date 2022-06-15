@@ -8,7 +8,7 @@
  * @h: head of linked list
  * @in: input string
  * @data: data structure
- * Return: no return
+ * Return: always return 0
  */
 
 void check_env(r_var **h, char *in, data_shell *data)
