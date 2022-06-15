@@ -34,26 +34,17 @@ if (_envr[row][chr] == '=')
 lval = _strlen(_envr[row] + chr + 1);
 
 add_rvar_node(h, j, _envr[row] + chr + 1, lval);
-
 return;
 }
-
 if (in[j] == _envr[row][chr])
-
 j++;
-
 else
-
 break;
 }
 }
-
 for (j = 0; in[j]; j++)
-
 {
-
 if (in[j] == ' ' || in[j] == '\t' || in[j] == ';' || in[j] == '\n')
-
 break;
 }
 
