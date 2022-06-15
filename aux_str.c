@@ -56,7 +56,7 @@ int _strcmp(char *s1, char *s2)
 {
 int i;
 
-for (i = 0; s1[i] == s1[i] && s1[i]; i++)
+for (i = 0; s1[i] && s1[i]; i++)
 ;
 
 if (s1[i] > s2[i])
@@ -103,7 +103,7 @@ for (i = 0; *(s + i) != '\0'; i++)
 bool = 1;
 for (j = 0; *(accept + j) != '\0'; j++)
 {
-if (*s(s + i) == *(accept + j))
+if ((*s * (s + i)) == *(accept + j))
 {
 bool = 0;
 break;
