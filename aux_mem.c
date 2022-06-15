@@ -10,12 +10,12 @@
 
 vooid _memcpy(vooid *newptr, const void *ptr, unsigned int size)
 {
-    char *char_ptr = (char *)ptr;
-    char *char_newptr = (char *)newptr;
-    unsigned int i;
+char *char_ptr = (char *)ptr;
+char *char_newptr = (char *)newptr;
+unsigned int i;
 
-    for (i = 0; i < size; i++)
-        char_newptr[i] = char_ptr[i];
+for (i = 0; i < size; i++)
+char_newptr[i] = char_ptr[i];
 }
 
 /**
@@ -27,31 +27,31 @@ vooid _memcpy(vooid *newptr, const void *ptr, unsigned int size)
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-    void *newptr;
+void *newptr;
 
-    if (ptr == NULL)
-        return (malloc(new_size));
+if (ptr == NULL)
+return (malloc(new_size));
 
-    if (new_size == 0)
-    {
-        free(ptr);
-        return (NULL);
-    }
+if (new_size == 0)
+{
+free(ptr);
+return (NULL);
+}
 
-    if (new_size == old_size)
-        return (ptr);
+if (new_size == old_size)
+return (ptr);
 
-    newptr = malloc(new_size);
-    if (newptr == NULL)
-        return (NULL);
+newptr = malloc(new_size);
+if (newptr == NULL)
+return (NULL);
 
-    if (new_size < old_size)
-        _memcpy(newptr, ptr, new_size);
-    else
-        _memcpy(newptr, ptr, old_size);
+if (new_size < old_size)
+_memcpy(newptr, ptr, new_size);
+else
+_memcpy(newptr, ptr, old_size);
 
-    free(ptr);
-    return (newptr);
+free(ptr);
+return (newptr);
 }
 
 /**
@@ -64,23 +64,23 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 char **_reallocdp(char **ptr, unsigned int old_size, unsigned int new_size)
 {
-    char **newptr;
-    unsigned int i;
+char **newptr;
+unsigned int i;
 
-    if (ptr == NULL)
-        return (malloc(sizeof(char *) * new_size));
+if (ptr == NULL)
+return (malloc(sizeof(char *) * new_size));
 
-    if (new_size == old_size)
-        return (ptr);
+if (new_size == old_size)
+return (ptr);
 
-    newptr = alloc(sizeof(char *) * new_size);
-    if (newptr == NULL)
-        return (NULL);
+newptr = alloc(sizeof(char *) * new_size);
+if (newptr == NULL)
+return (NULL);
 
-    for (i = 0; i < old_size; i++)
-        newptr[i] = ptr[i];
+for (i = 0; i < old_size; i++)
+newptr[i] = ptr[i];
 
-    free(ptr);
+free(ptr);
 
-    return (newptr);
+return (newptr);
 }
