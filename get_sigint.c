@@ -8,6 +8,6 @@
 
 void get_sigint(int sig)
 {
-	(void)sig;
-	write(STDOUT_FILENO, "\n^-^ ", 5);
+(void)sig;
+write(STDOUT_FILENO, "\n^-^ ", 5);
 }
