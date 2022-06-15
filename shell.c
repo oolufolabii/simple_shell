@@ -22,7 +22,7 @@ return (0);
 
 /**
  * c_shell - Entry point
- * 
+ *
  */
 
 void c_shell(void)
@@ -62,7 +62,7 @@ waitpid(pid, NULL, 0);
 
 /**
  * get_cmd - Entry point
- * 
+ *
  */
 void get_cmd(void)
 {
@@ -78,7 +78,7 @@ cmd[strlen(cmd) - 1] = '\0';
 
 /**
  * convert_cmd - Entry point
- * 
+ *
  */
 void convert_cmd(void)
 {
@@ -110,7 +110,7 @@ argv[i] = NULL;
 /**
  * log_handle - Entry point
  * @sig: param
- * 
+ *
  */
 void log_handle(int sig)
 {
