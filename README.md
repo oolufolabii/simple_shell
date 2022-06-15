@@ -14,6 +14,6 @@
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
 
 
-chmod u+x split.c && git add --chmod=+x shell_loop.c && git commit -m 'task 26 file shell_loop.c' && git push
+chmod u+x split.c && git add --chmod=+x split.c && git commit -m 'task 26 file shell_loop.c' && git push
 git add .  && git commit -m 'rep_var.c file'
 git add . && git commit -m 'created readme'
