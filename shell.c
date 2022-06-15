@@ -110,7 +110,7 @@ argv[i] = NULL;
  * @sig: param
  *
  */
-void log_handle(void)
+void log_handle(int sig)
 {
 FILE *pFile;
 pFile = fopen("log.txt", "a");
