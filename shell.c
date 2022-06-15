@@ -45,7 +45,7 @@ execvp(argv[0], argv);
 }
 else
 {
-if(argv[i] == NULL) 
+if (argv[i] == NULL)
 waitpid(pid, NULL, 0);
 }
 }
@@ -55,8 +55,8 @@ void get_cmd(void)
 {
 printf("Shell>\t");
 fgets(cmd, MAX_SIZE_CMD, stdin);
-if ((strlen(cmd) > 0) && (cmd[strlen (cmd) - 1] == '\n'))
-cmd[strlen (cmd) - 1] = '\0';
+if ((strlen(cmd) > 0) && (cmd[strlen(cmd) - 1] == '\n'))
+cmd[strlen(cmd) - 1] = '\0';
 }
 
 void convert_cmd(void)
@@ -64,16 +64,20 @@ void convert_cmd(void)
 char *ptr;
 i = 0;
 ptr = strtok(cmd, " ");
-while(ptr != NULL){
+while(ptr != NULL)
+{
 argv[i] = ptr;
 i++;
 ptr = strtok(NULL, " ");
 }
 
-if(!strcmp("&", argv[i-1])){
-argv[i-1] = NULL;
+if(!strcmp("&", argv[i - 1]))
+{
+argv[i - 1] = NULL;
 argv[i] = "&";
-}else{
+}
+else
+{
 argv[i] = NULL;
 }
 }
