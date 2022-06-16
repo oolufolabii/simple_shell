@@ -79,6 +79,8 @@ $
 
 15. Simple shell 1.0+. Handle comments (#)
 
+16. File as input. Usage: simple_shell [filename]
+
 ## Issues
 
 > Report issues/bug here: [Issues](https://github.com/oolufolabii/simple_shell/issues)
