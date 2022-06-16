@@ -73,6 +73,8 @@ $
 
 12. Simple shell 1.0+. Handle the && and || shell logical operators
 
+13. Simple shell 1.0+. Implement the alias builtin command
+
 
 
 ## Issues
