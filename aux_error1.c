@@ -1,8 +1,10 @@
+
 #include "main.h"
 
 /**
  * strcat_cd - function that concatenates the message for cd error
- * @datash: data relevant
+ *
+ * @datash: data relevant (directory)
  * @msg: message to print
  * @error: output message
  * @ver_str: counter lines
@@ -39,8 +41,8 @@ char *strcat_cd(data_shell *datash, char *msg, char *error, char *ver_str)
 
 /**
  * error_get_cd - error message for cd command in get_cd
- * @datash: data relevant
- * Return: error message
+ * @datash: data relevant (directory)
+ * Return: Error message
  */
 char *error_get_cd(data_shell *datash)
 {
@@ -70,16 +72,17 @@ char *error_get_cd(data_shell *datash)
 	}
 
 	error = strcat_cd(datash, msg, error, ver_str);
+
 	free(ver_str);
+
 	return (error);
 }
 
 /**
  * error_not_found - generic error message for command not found
- * @datash: data relevant
- * Return: error message
+ * @datash: data relevant (counter, arguments)
+ * Return: Error message
  */
-
 char *error_not_found(data_shell *datash)
 {
 	int length;
@@ -101,18 +104,18 @@ char *error_not_found(data_shell *datash)
 	_strcat(error, ver_str);
 	_strcat(error, ": ");
 	_strcat(error, datash->args[0]);
-	_strcat(error, ": not fount\n");
+	_strcat(error, ": not found\n");
 	_strcat(error, "\0");
 	free(ver_str);
 	return (error);
 }
 
 /**
- * error_exit_shell - generic error message
- * @datash: data relevant
- * Return: error message
+ * error_exit_shell - generic error message for exit in get_exit
+ * @datash: data relevant (counter, arguments)
+ *
+ * Return: Error message
  */
-
 char *error_exit_shell(data_shell *datash)
 {
 	int length;
@@ -139,5 +142,4 @@ char *error_exit_shell(data_shell *datash)
 	free(ver_str);
 
 	return (error);
-
 }
