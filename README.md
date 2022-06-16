@@ -47,6 +47,7 @@ $
 
 ---
 
+```
 0. Write a beautiful code that passes the Betty checks
 
 1. Simple shell 0.1
@@ -80,6 +81,7 @@ $
 15. Simple shell 1.0+. Handle comments (#)
 
 16. File as input. Usage: simple_shell [filename]
+```
 
 ## Issues
 
@@ -91,6 +93,3 @@ $
 
 + **Ademola Sikiru** - [ade2002](https://github.com/Ade2002/)
 + **Olufolabi Otitoola** - [oolufolabii](github.com/oolufolabii/)
-
-chmod u+x as_inbuilts.c && git add --chmod=+x as_inbuilts.c && git commit -m 'as_inbuilts.c' && git push
-git add . && git commit -m 'created readme'
