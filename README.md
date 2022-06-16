@@ -1,5 +1,7 @@
 # A Simple Shell Program Using C
 
+Write a simple UNIX command interpreter.
+
 ---
 
 ## Compilation
@@ -25,8 +27,21 @@ hsh main.c shell.c
 $
 ```
 
+But also in non-interactive mode:
 
-
+```
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+```
 
 
 
