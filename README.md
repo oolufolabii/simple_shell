@@ -75,7 +75,7 @@ $
 
 13. Simple shell 1.0+. Implement the alias builtin command
 
-Simple shell 1.0+. Handle variables replacement <$?> & <$$>.
+14. Simple shell 1.0+. Handle variables replacement <$?> & <$$>.
 
 
 
