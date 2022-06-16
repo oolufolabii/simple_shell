@@ -5,6 +5,12 @@ int shellby_exit(char **args, char **front);
 int shellby_cd(char **args, char __attribute__((__unused__)) **front);
 int shellby_help(char **args, char __attribute__((__unused__)) **front);
 
+/* Global program name */
+char *name;
+/* Global history counter */
+int hist;
+
+
 /**
  * get_builtin - Matches a command with a corresponding
  *               shellby builtin function.

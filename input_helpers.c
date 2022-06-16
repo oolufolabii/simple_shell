@@ -6,6 +6,11 @@ int run_args(char **args, char **front, int *exe_ret);
 int handle_args(int *exe_ret);
 int check_args(char **args);
 
+/* Global program name */
+char *name;
+/* Global history counter */
+int hist;
+
 /**
  * get_args - Gets a command from standard input.
  * @line: A buffer to store the command.

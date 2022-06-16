@@ -17,10 +17,7 @@
 /* Global environemnt */
 extern char **environ;
 
-/* Global program name */
-extern char *name;
-/* Global history counter */
-extern int hist;
+
 
 
 /**
