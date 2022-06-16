@@ -10,38 +10,38 @@
 
 void bring_line(char **lineptr, size_t *n, char *buffer, size_t j)
 {
-if (*lineptr == NULL)
-{
-if  (j > BUFSIZE)
-*n = j;
-else
-*n = BUFSIZE;
+	if (*lineptr == NULL)
+	{
+		if  (j > BUFSIZE)
+			*n = j;
+		else
+			*n = BUFSIZE;
 
-*lineptr = buffer;
-}
-else if (*n < j)
-{
-if (j > BUFSIZE)
-*n = j;
-else
-*n = BUFSIZE;
+		*lineptr = buffer;
+	}
+	else if (*n < j)
+	{
+		if (j > BUFSIZE)
+			*n = j;
+		else
+			*n = BUFSIZE;
 
-*lineptr = buffer;
-}
-else
-{
-_strcpy(*lineptr, buffer);
-free(buffer);
-}
+		*lineptr = buffer;
+	}
+	else
+	{
+		_strcpy(*lineptr, buffer);
+		free(buffer);
+	}
 }
 
 /**
-* get_line - Read inpt from stream
-* @lineptr: buffer that stores the input
-* @n: size of lineptr
-* @stream: stream to read from
-* Return: The number of bytes in the input
-*/
+ * get_line - Read inpt from stream
+ * @lineptr: buffer that stores the input
+ * @n: size of lineptr
+ * @stream: stream to read from
+ * Return: The number of bytes in the input
+ */
 
 ssize_t get_line(char **lineptr, size_t *n, FILE *stream)
 {
