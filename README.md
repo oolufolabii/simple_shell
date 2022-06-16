@@ -2,6 +2,15 @@
 
 ---
 
+## Compilation
+
+Your shell will be compiled this way:
+
+```
+
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
+
 ## Issues
 
 > Report issues/bug here: [Issues](https://github.com/oolufolabii/simple_shell/issues)
