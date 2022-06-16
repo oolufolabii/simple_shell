@@ -1,4 +1,8 @@
-#include "main.h"
+#include "shell.h"
+
+int shellby_alias(char **args, char __attribute__((__unused__)) **front);
+void set_alias(char *var_name, char *value);
+void print_alias(alias_t *alias);
 
 /**
  * shellby_alias - Builtin command that either prints all aliases, specific
@@ -146,3 +150,4 @@ char **replace_aliases(char **args)
 
 	return (args);
 }
+
