@@ -1,4 +1,4 @@
-s (27 sloc)  425 Bytes
+s(27 sloc)  425 Bytes
 
 
 #include "main.h"
