@@ -77,7 +77,7 @@ $
 
 14. Simple shell 1.0+. Handle variables replacement <$?> & <$$>.
 
-
+15. Simple shell 1.0+. Handle comments (#)
 
 ## Issues
 
