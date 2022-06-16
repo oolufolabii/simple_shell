@@ -58,11 +58,11 @@ void set_env(char *name, char *value, data_shell *datash)
 }
 
 /**
-* _setenv - compares env variables names
-* with the name passed.
-* @datash: data relevant (env name and env value)
-* Return: 1 on success.
-*/
+ * _setenv - compares env variables names
+ * with the name passed.
+ * @datash: data relevant (env name and env value)
+ * Return: 1 on success.
+ */
 
 int _setenv(data_shell *datash)
 {
@@ -78,10 +78,10 @@ int _setenv(data_shell *datash)
 }
 
 /**
-* _unsetenv - deletes a environment variable
-* @datash: data relevant (env name)
-* Return: 1 on success.
-*/
+ * _unsetenv - deletes a environment variable
+ * @datash: data relevant (env name)
+ * Return: 1 on success.
+ */
 
 int _unsetenv(data_shell *datash)
 {
