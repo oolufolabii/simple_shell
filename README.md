@@ -63,9 +63,11 @@ $
 
 7. Simple shell 0.2.1
 
+8. Simple shell 0.4.1
 
+9. setenv, unsetenv
 
-
+10. Simple shell 1.0+. Implement the builtin command cd
 
 
 
