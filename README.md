@@ -69,7 +69,9 @@ $
 
 10. Simple shell 1.0+. Implement the builtin command cd
 
+11. Simple shell 1.0+. Handle the commands separator ;
 
+12. Simple shell 1.0+. Handle the && and || shell logical operators
 
 
 
